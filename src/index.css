@@ -1,14 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One');
+
 body {
+  background-color: #353358;
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Bowlby One', cursive;
+  color: #FFF;
+  font-size: 2em;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.TopBar {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  margin-top:50px;
+  margin: auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+.hot {
+  color:#c8000a;
+  font-size: 2.5em;
+}
+.cold {
+  color:#b0e9fb;
+  font-size: 2.5em;
 }
